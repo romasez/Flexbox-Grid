@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment #2 — Advanced CSS</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+ 
+  <header class="navbar">
+    <div class="logo">MyBrand</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#task0">Home</a></li>
+        <li><a href="#task1">About</a></li>
+        <li><a href="#task2">Layout</a></li>
+        <li><a href="#task3">Gallery</a></li>
+        <li><a href="#task4">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-wrapper">
+
+    <section id="task1" class="section">
+      <h2 class="section-title">Task 1 — Card Row </h2>
+      <div class="card-row">
+
+        <article class="card">
+          <img src="m1.jpg" alt="Card image 1">
+          <div class="card-body">
+            <h3>Mountain hiking</h3>
+            <p>Trails for beginners and experienced hikers in the mountains of Kazakhstan.</p>
+            <button class="btn">Learn More</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="m2.jpg">
+          <div class="card-body">
+            <h3>Lakeside Camping</h3>
+            <p>Escape the city — tents, campfires, and quiet nights by the water.</p>
+            <button class="btn">Learn More</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="m3.jpg">
+          <div class="card-body">
+            <h3>Forest Trails</h3>
+            <p>Hiking and biking routes through pine forests.</p>
+            <button class="btn">Learn More</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <section id="task2" class="section">
+      <h2 class="section-title">Task 2 — Page Layout with Grid Areas</h2>
+      <div class="grid-layout">
+        <header class="area-header">Header</header>
+        <aside class="area-sidebar">Sidebar</aside>
+        <main class="area-main">Main Content</main>
+        <footer class="area-footer">Footer</footer>
+      </div>
+    </section>
+
+
+    <section id="task3" class="section">
+      <h2 class="section-title">Task 3 — Image Gallery </h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="a1.jpeg" alt="Gallery image 1">
+          <div class="caption">Mountains</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a9.jpg" alt="Gallery image 2">
+          <div class="caption">Valley</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a3.JPG" alt="Gallery image 3">
+          <div class="caption">Forest</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a7.jpg" alt="Gallery image 4">
+          <div class="caption">Trail</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a6.jpg" alt="Gallery image 5">
+          <div class="caption">Waterfall</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a4.jpg" alt="Gallery image 6">
+          <div class="caption">Sunset</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a2.jpg" alt="Gallery image 7">
+          <div class="caption">Lake</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a8.jpg" alt="Gallery image 8">
+          <div class="caption">Snow</div>
+        </div>
+        <div class="gallery-item">
+          <img src="a5.jpg" alt="Gallery image 9">
+          <div class="caption">River</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="task4" class="section">
+      <h2 class="section-title">Task 4 — Portfolio Page (Flexbox + Grid)</h2>
+
+      <div class="portfolio">
+
+        <header class="portfolio-header">
+          <div class="logo">Portfolio</div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="portfolio-main">
+
+          <div class="projects">
+            <div class="project-card">
+              <img src="b1.jpg" alt="Project 1">
+              <div class="project-body">
+                <h4>E-commerce Website</h4>
+                <p>A responsive online store built with HTML, CSS and vanilla JavaScript.</p>
+                <button class="btn">View Project</button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="b2.jpg" alt="Project 2">
+              <div class="project-body">
+                <h4>Weather App</h4>
+                <p>A small app that fetches live weather data using a public API.</p>
+                <button class="btn">View Project</button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="b3." alt="Project 3">
+              <div class="project-body">
+                <h4>Task Manager</h4>
+                <p>A drag-and-drop kanban board for organizing daily tasks.</p>
+                <button class="btn">View Project</button>
+              </div>
+            </div>
+          </div>
+
+          <aside class="portfolio-sidebar">
+            <h4>About Me</h4>
+            <p>Front-end developer focused on building clean, responsive interfaces with modern CSS.</p>
+            <h4>Skills</h4>
+            <ul>
+              <li>HTML5 / CSS3</li>
+              <li>Flexbox & Grid</li>
+              <li>JavaScript</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </aside>
+
+        </div>
+
+        <footer class="portfolio-footer">
+          &copy; 2026 My Portfolio. All rights reserved.
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
