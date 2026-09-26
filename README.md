@@ -12,40 +12,37 @@ This project demonstrates advanced CSS layout techniques using **Flexbox** and *
 
 A header with a logo on the left and navigation links on the right, aligned horizontally and vertically centered using Flexbox.
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+<img width="1406" height="76" alt="image" src="https://github.com/user-attachments/assets/8263a8f2-1f10-4514-806b-1231ebf88f70" />
 
 
 ## Task 1 — Card Row (Flexbox)
 
 Three cards (Mountain Hiking, Lakeside Camping, Forest Trails), each with an image, title, description, and button. Cards are arranged in a row with equal height, consistent gaps, and a hover lift effect.
 
-![alt text](image-3.png)
-![alt text](image-4.png)
+<img width="1377" height="573" alt="image" src="https://github.com/user-attachments/assets/623fd500-40fa-4369-9fb4-e16c085ba8b8" />
+
 
 
 ## Task 2 — Page Layout with Grid Areas
 
 A page layout with header, sidebar, main content, and footer, built using CSS Grid `grid-template-areas`.
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+<img width="1388" height="657" alt="image" src="https://github.com/user-attachments/assets/ba17194e-ef50-4f2e-8e75-1cc6dd9252f7" />
+
 
 
 ## Task 3 — Image Gallery (Grid)
 
 A 3x3 image gallery of nature photos with equal-width columns, consistent spacing, and a caption overlay on hover.
 
-![alt text](image-7.png)
-![alt text](image-8.png)
+<img width="1385" height="780" alt="image" src="https://github.com/user-attachments/assets/fc4bcd35-7e99-4598-8271-8cf25bc70f75" />
 
 
 ## Task 4 — Portfolio Page (Flexbox + Grid Combined)
 
 A portfolio page combining Flexbox (navigation bar, project card content) and CSS Grid (main section layout: projects on the left, sidebar on the right).
 
-![alt text](image-9.png)
-![alt text](image-10.png)
+<img width="1382" height="781" alt="image" src="https://github.com/user-attachments/assets/618c083c-63ab-4c51-bfac-82e0a6b0a29c" />
 
 
 
